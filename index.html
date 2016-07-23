@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<style>
+    div.hero {
+    background: url({{site.url}}{{site.default-hero-image}}) no-repeat top center;
+    min-height: 30vh;
+    background-size: cover;
+    padding-top: 50px;
+}
+</style>
 
  <div class="hero">
             <div class="hero-content">
@@ -31,10 +39,11 @@ layout: default
                         </div><!--/play-button-->
                         <div class="sermon-info-info">
                             <h3><a href="{{ sermon.title | datapage_url: 'sermons' | prepend: site.baseurl | prepend: site.url }}">{{sermon.title}}</a></h3>
-                            <p><i class="fa fa-user"></i>{{sermon.speaker_name}}  <i class="fa fa-calendar"></i> {{sermon.date | date: "%m/%d/%y" }}  <i class="fa fa-book"></i> {{sermon.bible_text}}</p>
+                            <p><i class="fa fa-user"></i>{{sermon.speaker_name}}  <i class="fa fa-calendar"></i> {{sermon.date | date: "%m/%d/%y" }}  {% if  sermon.bible_text%}<i class="fa fa-book"></i> 
+{{sermon.bible_text}}{% endif %}</p>
                         </div><!--/sermon-info-info-->
                     </div><!--/sermon-info-->
-                    <p class="series-link"><a href="{{ sermon.title | datapage_url: 'series' | prepend: site.baseurl | prepend: site.url }}">More from this series <i class="fa fa-external-link"></i></a></p>
+                    <p class="series-link"><a href="{{ sermon.series_title[0] | datapage_url: 'series' | prepend: site.baseurl | prepend: site.url }}">More from this series <i class="fa fa-external-link"></i></a></p>
                 </div><!--/home-sermon-box-->
                 {% endfor %}
                
