@@ -231,7 +231,7 @@ var updated = false;
 
     // photos 
 
-    photos('photos').select({
+    photos('Photos').select({
         maxRecords: 100,
       //sort
         filterByFormula: "published",

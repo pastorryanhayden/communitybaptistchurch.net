@@ -7,7 +7,7 @@
 @include foundation-grid;
 // @include foundation-flex-grid; 
 @include foundation-typography;
-@include foundation-button; 
+@include foundation-button;  
 @include foundation-forms; 
 // @include foundation-range-input;
 @include foundation-accordion;
@@ -51,4 +51,6 @@
 
 @import 'elements/elements-dir';
 @import 'pages/pages-dir'; 
+@import 'pages/blogPost'; 
+@import 'pages/gallery';  
 

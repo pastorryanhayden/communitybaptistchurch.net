@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Leave this alone
 baseurl: "" # the subpath of your site, e.g. /blog
 # Change this to the domain when you are finished and ready to publish.
-url: "http://new-england.pubstorm.site/" # the base hostname & protocol for your site | Switch to "http://communitybaptistchurch.net/" Before running Glynn.  Afterwards change it back to http://localhost:4000/
+url: "http://www.communitybaptistchurch.net//" # the base hostname & protocol  http://new-england.pubstorm.site/ for your site | Switch to "http://communitybaptistchurch.net/" Before running Glynn.  Afterwards change it back to http://localhost:4000/
 
 # This is the path to the default images.  If you add different default images you can change them here.
 default_header_image: "assets/default_header.jpg"
@@ -23,13 +23,13 @@ map_long: "-88.4009097"
 
 # Airtable API Stuff
 airtable:
-  apikey: "keyRTLlrVS02vC3Vx"
-  blog: "appxF48xfkO7dHWGh"
+  apikey: "keyj65VmcfHjMjuXA"
+  blog: "appRUzcUZHfkVyn1g"
   sermons: "appPlrQmAHYCLAzWo"
   series: "appPlrQmAHYCLAzWo"
-  ministries: "appo4EmHX9KELKJ0u"
-  photos: "appo4EmHX9KELKJ0u"
-  events: "appo4EmHX9KELKJ0u"
+  ministries: "appbTYs7RPbQD41QL"
+  photos: "appbTYs7RPbQD41QL"
+  events: "appbTYs7RPbQD41QL"
   abouts: "app0XyS6tWRyseVlR"
 
 # LEAVE EVERYTHING ELSE ALONE!!
@@ -77,3 +77,8 @@ page_gen:
     name: 'title'
     dir: 'about-us'
 
+ftp_host: 'biblebaptistmattoon.org'
+ftp_dir: 'communitybaptistchurch.net/'
+ftp_passive: false
+ftp_username: 'ryahay11'
+ftp_password: '@88Volvocj'

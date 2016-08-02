@@ -83,7 +83,6 @@
     }
 
     .details {
-        border-right: 1px solid $white;
         flex-grow: 1;
         padding-right: 10px;
     }
@@ -113,5 +112,12 @@
 .ministriesContent__content__photos__thumbnails {
     display: flex;
     justify-content: space-between;
+
+    a.gallery { 
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 } 
 
