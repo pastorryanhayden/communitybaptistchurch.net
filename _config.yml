@@ -2,13 +2,11 @@
 title: Community Baptist Church
 # Give a brief description of the church
 description: > # this means to ignore newlines until "baseurl:"
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus blanditiis odio corrupti, 
-    illum architecto consequuntur, quaerat unde repudiandae qui temporibus! Fuga maxime molestiae hic impedit 
-    sit sint perferendis rerum unde.
+    Commmunity Baptist Church is a gospel preaching, Bible believing church in Riverhead, (Long Island) New York.
 # Leave this alone
 baseurl: "" # the subpath of your site, e.g. /blog
 # Change this to the domain when you are finished and ready to publish.
-url: "http://www.communitybaptistchurch.net//" # the base hostname & protocol  http://new-england.pubstorm.site/ for your site | Switch to "http://communitybaptistchurch.net/" Before running Glynn.  Afterwards change it back to http://localhost:4000/
+url: "http://communitybaptistchurch.net/" # the base hostname & protocol  http://new-england.pubstorm.site/ for your site | Switch to "http://communitybaptistchurch.net/" Before running Glynn.  Afterwards change it back to http://localhost:4000/
 
 # This is the path to the default images.  If you add different default images you can change them here.
 default_header_image: "assets/default_header.jpg"

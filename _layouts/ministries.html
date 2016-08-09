@@ -79,6 +79,8 @@ layout: default
                     <img src="{{img.thumbnails.large.url}}" />
              </a><!--/gallery-item-->
             {% endfor %} <!--/end individual images-->
+            {% else %}
+            <p>No recent {{page.title}} pictures to show.</p>
             {% endif %}
           {% endfor %} <!--/ end gallery loop -->           
         </div>
