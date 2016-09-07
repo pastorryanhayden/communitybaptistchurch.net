@@ -9,12 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://communitybaptistchurch.net/" # the base hostname & protocol  http://new-england.pubstorm.site/ for your site | Switch to "http://communitybaptistchurch.net/" Before running Glynn.  Afterwards change it back to http://localhost:4000/
 
 # This is the path to the default images.  If you add different default images you can change them here.
-default_header_image: "assets/default_header.jpg"
-default_sermon_image: "assets/default_header.jpg"
-default_blog_image: "assets/default_header.jpg"
-default_about_image: "assets/default_header.jpg"
-default_calendar_image: "assets/calendar_default.jpg"
-default-hero-image: "assets/hero.jpg"
+default_header_image: "http://sitesforchurch.s3.amazonaws.com/cm_default_header.jpg"
+default_sermon_image: "http://sitesforchurch.s3.amazonaws.com/cm_default_header.jpg"
+default_blog_image: "http://sitesforchurch.s3.amazonaws.com/cm_default_header.jpg"
+default_about_image: "http://sitesforchurch.s3.amazonaws.com/cm_default_header.jpg"
+default_calendar_image: "http://sitesforchurch.s3.amazonaws.com/calendar_default.jpg"
+default_hero_image: "http://sitesforchurch.s3.amazonaws.com/hero.jpg"
 # The lattitude and longitude for Google Maps
 map_lat: "39.476286"
 map_long: "-88.4009097"
